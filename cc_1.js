@@ -47,3 +47,17 @@ console.log("Is employeeScore1 greater than or equal to employeeScore2?", employ
 console.log("Is employeeScore1 less than or equal to employeeScore2?", employeeScore1 <= employeeScore2)
 console.log("Are employeeScore1 and employeeScore2 equal?", employeeScore1 === employeeScore2)
 console.log("Are employeeScore1 and employeeScore2 not equal?", employeeScore1 !== employeeScore2)
+
+// Task 5: Logical Operators
+
+let hasKeyCard = true
+let hasPermission = false
+
+let fullAccess = hasKeyCard && hasPermission
+console.log("Full Access to Area:", fullAccess)
+
+let partialAccess = hasKeyCard || hasPermission
+console.log("Partial Access to Area:", partialAccess)
+
+let deniedAccess = !hasPermission
+console.log("Denied Access to Area:", deniedAccess)
