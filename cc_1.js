@@ -16,3 +16,22 @@ const productDetails = {
     inStock: true
 }
 console.log(products, productDetails)
+
+// Task 3: Assignment Operators
+
+let accountBalance = 3467
+
+accountBalance += 135
+console.log("After adding: $" + accountBalance)
+
+accountBalance -= 78
+console.log("After subtracting: $" + accountBalance)
+
+accountBalance *= 2
+console.log("After multiplying: $" + accountBalance)
+
+accountBalance /= 1.15
+console.log("After splitting: $" + accountBalance)
+
+accountBalance %= 3
+console.log("Remainder: $" + accountBalance)
