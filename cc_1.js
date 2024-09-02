@@ -35,3 +35,15 @@ console.log("After splitting: $" + accountBalance)
 
 accountBalance %= 3
 console.log("Remainder: $" + accountBalance)
+
+// Task 4: Comparison Operators
+
+let employeeScore1 = 98
+let employeeScore2 = 34
+
+console.log("Is employeeScore1 greater than employeeScore2?", employeeScore1 > employeeScore2)
+console.log("Is employeeScore1 less than employeeScore2?", employeeScore1 < employeeScore2)
+console.log("Is employeeScore1 greater than or equal to employeeScore2?", employeeScore1 >= employeeScore2)
+console.log("Is employeeScore1 less than or equal to employeeScore2?", employeeScore1 <= employeeScore2)
+console.log("Are employeeScore1 and employeeScore2 equal?", employeeScore1 === employeeScore2)
+console.log("Are employeeScore1 and employeeScore2 not equal?", employeeScore1 !== employeeScore2)
